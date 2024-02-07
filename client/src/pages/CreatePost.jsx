@@ -74,7 +74,7 @@ export default function CreatePost() {
         return;
       }
 
-      
+
       if (res.ok) {
         setPublishError(null);
         navigate(`/post/${data.slug}`);
